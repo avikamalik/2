@@ -11,7 +11,7 @@ background("black")
 
  for(var i = 1 ;i<11;i++) {
    fill("green")
-   textSize(30)
-  text(num+"*"+i+"="+num*i,50,i*70) 
+   textSize(28)
+  text(num+"*"+i+"="+num*i,50,i*60) 
  }  
 }
