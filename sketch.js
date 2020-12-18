@@ -1,6 +1,6 @@
 var num
 function setup (){
-  createCanvas(400,450)
+  createCanvas(windowWidth,windowHeight)
   num =  prompt("Enter number")
 }
 
@@ -11,7 +11,7 @@ background("black")
 
  for(var i = 1 ;i<11;i++) {
    fill("green")
-   textSize(14)
+   textSize(34)
   text(num+"*"+i+"="+num*i,50,i*40) 
  }  
 }
